@@ -1,138 +1,153 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Privacy Policy</title>
-  <link rel="stylesheet" href="styles.css" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Index AMS</title>
+<style>
+  :root {
+    --ink: #1f2430;
+    --muted: #5b6474;
+    --rule: #e3e7ee;
+    --brand: #2563eb;
+    --brand-2: #3b82f6;
+    --page: #f5f7fb;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--page);
+    color: var(--ink);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  }
+  header {
+    background: linear-gradient(135deg, var(--brand), var(--brand-2));
+    color: #fff;
+    text-align: center;
+    padding: 56px 16px 64px;
+  }
+  header h1 { margin: 0 0 8px; font-size: 32px; letter-spacing: -0.01em; }
+  header p { margin: 0; opacity: 0.9; }
+  main {
+    max-width: 820px;
+    margin: -32px auto 64px;
+    background: #fff;
+    border-radius: 14px;
+    padding: 40px 36px 48px;
+    box-shadow: 0 1px 3px rgba(16, 24, 40, 0.08);
+  }
+  h2 { font-size: 21px; margin: 36px 0 10px; letter-spacing: -0.01em; }
+  h3 { font-size: 16px; margin: 22px 0 6px; }
+  h2:first-of-type { margin-top: 8px; }
+  ul { padding-left: 22px; }
+  li { margin: 5px 0; }
+  .meta { color: var(--muted); font-size: 14px; border-bottom: 1px solid var(--rule); padding-bottom: 18px; }
+  .note { background: #f1f5fd; border-left: 3px solid var(--brand); padding: 12px 16px; border-radius: 0 8px 8px 0; margin: 16px 0; }
+  table { width: 100%; border-collapse: collapse; margin: 14px 0; font-size: 15px; }
+  th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; font-size: 13px; text-transform: uppercase; letter-spacing: 0.04em; }
+  a { color: var(--brand); }
+  footer { text-align: center; color: var(--muted); font-size: 13px; padding-bottom: 48px; }
+  @media (max-width: 640px) {
+    main { margin: -24px 12px 48px; padding: 28px 20px 36px; }
+    header h1 { font-size: 26px; }
+  }
+</style>
 </head>
-
 <body>
+<header>
+  <h1>Privacy Policy</h1>
+  <p>Index AMS — Attendance Management System</p>
+</header>
 
-  <!-- NAVBAR -->
-  <nav class="navbar">
-    <div class="container nav">
-      <img src="ams_logo.png" alt="App Logo" class="logo" />
-    </div>
-  </nav>
+<main>
+  <p class="meta"><strong>Effective date:</strong> 6 October 2026 &nbsp;·&nbsp; Applies to the Index AMS mobile app (iOS and Android) and the Index AMS web portal, published by Index Solution.</p>
 
-  <!-- HEADER -->
-  <section class="header">
-    <div class="container">
-      <h1>Privacy Policy</h1>
-      <p class="subtitle">Your privacy matters</p>
-    </div>
-  </section>
+  <h2>1. Who this policy is for</h2>
+  <p>Index AMS is a workplace attendance system. You normally use it because your employer has enrolled you in it. Your employer decides what information is held about you and who inside the organisation can see it; Index Solution operates the system on your employer's behalf.</p>
+  <p>The app is built for working adults and is not directed at children.</p>
 
-  <!-- CONTENT -->
-  <section class="content">
-    <div class="container">
+  <h2>2. Information we collect</h2>
 
-      <p><b>Effective Date:</b> 04-06-2026</p>
+  <h3>a. Account information, provided by your employer</h3>
+  <ul>
+    <li>Name</li>
+    <li>Email address, which is also your sign-in name</li>
+    <li>Phone number, where your employer records one</li>
+    <li>Your role and the team, department or site you belong to</li>
+    <li>Your work schedule</li>
+  </ul>
 
-      <p>
-        Thank you for using our Attendance Management System (“App”). Your privacy is important to us. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application.
-      </p>
+  <h3>b. Attendance information</h3>
+  <ul>
+    <li>Check-in and check-out times</li>
+    <li>Leave requests, attendance corrections and overtime, together with who approved or declined them</li>
+    <li>Remarks you type into a request</li>
+  </ul>
 
-      <h2>1. Information We Collect</h2>
-      <p>We may collect the following types of information:</p>
+  <h3>c. Location</h3>
+  <p>When you check in or check out, the app reads your device's precise location once and sends it with that single attendance record, so your employer can confirm the mark was made at the assigned site.</p>
+  <div class="note">
+    <strong>The app does not follow you.</strong> Location is read only at the moment you tap check in or check out, and only while the app is open on your screen. There is no background tracking, no location history between marks, and no location is read when you are not marking attendance.
+  </div>
 
-      <h3>a. Personal Information</h3>
-      <ul>
-        <li>Name</li>
-        <li>Email address</li>
-        <li>User ID / Role (e.g., Admin, Teacher, Student)</li>
-      </ul>
+  <h3>d. Device information</h3>
+  <ul>
+    <li>A notification token issued by Apple or Google, used only to deliver the app's own notifications to your device</li>
+    <li>Device model and operating system version, and basic diagnostic information used to find and fix faults</li>
+  </ul>
 
-      <h3>b. Usage Information</h3>
-      <ul>
-        <li>Attendance records (sign-in/sign-out logs).</li>
-        <li>QR code scan activity.</li>
-        <li>Device information (model, OS version).</li>
-        <li>App usage data (for performance and debugging).</li>
-      </ul>
+  <h3>e. Photo library</h3>
+  <p>The app asks for permission to save to your photo library only when you choose to export or share a report from your device. It does not read, scan or upload your existing photos.</p>
 
-      <h3>c. Camera Access</h3>
-      <ul>
-        <li>	The App uses your device camera to scan QR codes for attendance purposes only.</li>
-      </ul>
+  <h3>f. What we do not collect</h3>
+  <p>The app does not use your camera, microphone, contacts, calendar, call logs or messages, and does not read files on your device.</p>
 
-      <h2>2. How We Use Your Information</h2>
-      <p>We use the collected information to:</p>
+  <h2>3. How the information is used</h2>
+  <table>
+    <tr><th>Information</th><th>What it is used for</th></tr>
+    <tr><td>Name, email, role</td><td>Signing you in, and showing the right screens for your role</td></tr>
+    <tr><td>Attendance times</td><td>Recording attendance and producing your employer's attendance reports</td></tr>
+    <tr><td>Location</td><td>Confirming an attendance mark was made at the assigned site</td></tr>
+    <tr><td>Notification token</td><td>Sending you app notifications, such as a decision on your request</td></tr>
+    <tr><td>Device and diagnostic information</td><td>Keeping the app working and investigating faults</td></tr>
+  </table>
+  <p>None of this information is used for advertising, and none of it is used to build a profile of you across other companies' apps or websites.</p>
 
-      <ul>
-         <li>Authenticate users and manage role-based access</li>
-         <li>Record attendance via QR code scanning</li>
-         <li>Generate QR codes for classes and teachers</li>
-         <li>Maintain attendance history and reports</li>
-         <li>Improve app performance and user experience</li>
-         <li>Ensure security and prevent unauthorized access</li>    
-      </ul>
+  <h2>4. Tracking and advertising</h2>
+  <p>Index AMS does not track you. We do not use advertising identifiers, we do not share your information with data brokers or advertising networks, and we do not combine your information with data from other companies for advertising purposes.</p>
 
-      <h2>3. Data Sharing and Disclosure</h2>
-      <p>
-        We do <b>not sell, trade, or rent</b> your personal information.
-        We may share your data only in the following cases:
-      </p>
+  <h2>5. Who can see your information</h2>
+  <ul>
+    <li><strong>Your employer.</strong> Administrators and the managers responsible for you can see your attendance and your requests, as their role allows.</li>
+    <li><strong>Nobody at another company.</strong> Each organisation's data is kept separate. One employer's users cannot reach another employer's records.</li>
+    <li><strong>Service providers</strong> who host the system and deliver notifications and email on our behalf, under contract and only for those purposes.</li>
+    <li><strong>Where the law requires it</strong>, or where it is necessary to protect the safety and security of users or of the system.</li>
+  </ul>
+  <p>We do not sell, rent or trade your personal information.</p>
 
-      <ul>
-          <li>With authorized administrators of your organization (e.g., school/company)</li>
-          <li>When required by law or legal processes</li>
-          <li>To protect rights, safety, or security of users or the system</li>
+  <h2>6. Storage and security</h2>
+  <p>Information is held on managed servers. Traffic between the app and our servers is encrypted in transit, passwords are stored hashed and never in readable form, and access is restricted by role. No system can promise perfect security, but we take reasonable measures to protect your information and review them as the system changes.</p>
 
-      </ul>
+  <h2>7. How long it is kept</h2>
+  <p>Attendance records are kept for as long as your employer needs them as an employment record, and for as long as the law requires. Diagnostic information is kept only for a short period. When your employer's use of the service ends, their data is removed or returned according to their agreement with us.</p>
 
-      
-      <h2>4. Data Storage and Security</h2>
-      <ul>
-        <li>Your data is securely stored on our servers/databases</li>
-        <li>We implement appropriate security measures to protect your information</li>
-        <li>However, no method of transmission over the internet is 100% secure</li>
-      </ul>
+  <h2>8. Your choices and rights</h2>
+  <ul>
+    <li><strong>Location permission</strong> can be refused or withdrawn at any time in your device settings. Attendance marking from the app needs it, so without it you would mark attendance another way your employer provides.</li>
+    <li><strong>Notifications</strong> can be turned off in your device settings at any time.</li>
+    <li><strong>Access, correction and deletion.</strong> Because your records belong to your employer, please ask your employer's administrator first. You may also write to us at the address below and we will work with your employer to answer you.</li>
+  </ul>
 
-      <h2>5. Data Retention</h2>
-      <p>We retain your information only as long as necessary to:</p>
-      <ul>
-        <li>Provide attendance services</li>
-        <li>Comply with legal obligations</li>
-        <li>Resolve disputes and enforce agreements</li>
-      </ul>
+  <h2>9. Changes to this policy</h2>
+  <p>We may update this policy as the app changes. The effective date at the top always shows when it was last revised, and the current version is always published at this address.</p>
 
-      <h2>6. User Rights</h2>
-      <p>Depending on your region, you may have the right to:</p>
-      <ul>
-        <li>Access your personal data</li>
-        <li>Request correction of inaccurate data</li>
-        <li>Request deletion of your data</li>
-      </ul>
+  <h2>10. Contact</h2>
+  <p>Questions about this policy, or about the information held about you:<br>
+  <strong>Email:</strong> <a href="mailto:s.225.kaj@gmail.com">s.225.kaj@gmail.com</a><br>
+  <strong>Publisher:</strong> Index Solution</p>
+</main>
 
-      <h2>7. Permissions Used</h2>
-      <p>The App may request the following permissions:</p>
-      <ul>
-        <li>	Camera – Required for scanning QR codes for attendance</li>
-        <li>Internet Access – Required for syncing attendance data</li>
-      </ul>
-
-      <h2>8. Children's Privacy</h2>
-      <p>
-       This App may be used by students under supervision of an organization (e.g., school). We do not knowingly collect personal data from children without proper authorization from the organization.</p>
-
-      <h2>9. Changes to This Privacy Policy</h2>
-      <p>
-        We may update this Privacy Policy from time to time. Any changes will be posted within the App or on our official page.
-      </p>
-
-      <h2>10. Contact Us</h2>
-      <p>If you have any questions about this Privacy Policy, please contact us:</p>
-
-      <p><strong>Email:</strong> s.225.kaj@gmail.com</p>
-      
-      <h2>11. Consent</h2>
-      <p>By using the App, you agree to this Privacy Policy.</p>
-
-   
-    </div>
-  </section>
-
+<footer>© 2026 Index Solution</footer>
 </body>
 </html>
